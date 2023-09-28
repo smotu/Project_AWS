@@ -21,7 +21,7 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = "Machine1FromTerraform"
     Type = "AppServer"
-    Webserver = "Nginx"
+    Webserver = "Apache"
     managed-by = "Terraform"
   }
 }
